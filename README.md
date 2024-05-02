@@ -12,3 +12,4 @@ http://127.0.0.1:5000/echo/hello - will give a JSON with "hello"
 }
 
 
+[![Python application test with Github actions](https://github.com/arunpras/Flask_demo/actions/workflows/main.yml/badge.svg)](https://github.com/arunpras/Flask_demo/actions/workflows/main.yml)
