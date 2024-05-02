@@ -3,13 +3,13 @@ install:
 		pip install -r requirements.txt
 
 test:
-	#	python main.py
+	#	python flask_demo.py
 
 format:
-	black main.py
+	black flask_demo.py
 
 lint:
-	pylint --disable=R,C flask.py
+	pylint --disable=R,C flask_demo.py
 
 all: install lint test format
 
