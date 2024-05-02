@@ -3,7 +3,8 @@ install:
 		pip install -r requirements.txt
 
 test:
-	#	python flask_demo.py
+	# need to fix this
+	# python -m pytest -vv --cov=flask_demo test_flask.py
 
 format:
 	black flask_demo.py
